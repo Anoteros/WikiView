@@ -3,9 +3,10 @@ html {
 	padding: 0;
 }
 
-body: {
+body {
 	margin: 0;
 	padding: 0;
+	background-color: #013243 !important;
 }
 
 * {
@@ -49,7 +50,12 @@ form.example::after {
 .random-container {
 	margin: 0 auto;
 	margin-top: 25%;
+	margin-bottom: 25px;
 	text-align: center;
+}
+
+.random-container a {
+	color: white !important;
 }
 
 .results-container {
@@ -94,6 +100,7 @@ li h1 {
 }
 
 a {
-	color: inherit;
-	text-decoration: inherit;
+    color:#000000 !important;
+    text-decoration:none;
 }
+

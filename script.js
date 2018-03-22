@@ -26,8 +26,7 @@ $.ajax({
        $(".random-container").css("margin-top", "0");
        $.each(data.query.search, function(i){
         $(".results-container").append(
-            "<li class='item["+i+"]'><a href='https://en.wikipedia.org/?curid='"+data.query.search[i].pageid+"><h1 class='dataTitle'>" + data.query.search[i].title + "</h1><p class='dataSnippet'" + data.query.search[i].snippet + "..." + "</p></li></a>"
-
+            "<li class='list-group-item'id='item["+i+"]'><a href='https://en.wikipedia.org/?curid="+data.query.search[i].pageid+"'> <h1 class='dataTitle'>" + data.query.search[i].title + "</h1><p class='dataSnippet'" + data.query.search[i].snippet + "..." + "</p></li></a>"
 
 
             ).hide().fadeIn(500);
