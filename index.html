@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WikiViewer</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="random-container">
+	<a href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random Wiki article!</a>
+</div>
+
+
+<div class="search-container">
+
+	  <input type="text" placeholder="Search Wikipedia" id="searchQuery">
+	  <button type="submit" onclick="wikiSearch()"><i class="fa fa-search"></i></button>
+
+  </div>
+
+<div class="results-container">
+<ul class="results-list">
+</ul>
+</div>
+
+
+
+
+</div>	
+</body>
+</html>
