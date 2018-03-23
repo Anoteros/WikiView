@@ -6,7 +6,8 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #013243 !important;
+	background-color: #34495e !important;
+/*	background-color: #013243 !important;*/
 }
 
 * {
@@ -88,7 +89,7 @@ form.example::after {
 }
 
 li {
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	list-style-type: none;
 	margin: 0 0 5px 0;
 	padding-left: 5px;
@@ -98,10 +99,11 @@ li {
 .list-group-item {
 	background-color: #E7E7E8 !important;
 	margin-bottom: 5px !important;
+	border: none !important;
 }
 
-.list-group-item:hover::before {
-      border-left: 5px solid black !important;
+.list-group-item:hover {
+      border-left: 5px solid #9b59b6 !important;
       margin-left: -5px !important;
 }
 
